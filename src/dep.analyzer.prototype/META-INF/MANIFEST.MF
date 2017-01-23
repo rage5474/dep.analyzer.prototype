@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Prototype
+Bundle-SymbolicName: dep.analyzer.prototype
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.pde.ui;bundle-version="3.9.100",
+ org.junit,
+ org.eclipse.core.resources,
+ org.eclipse.core.runtime,
+ cccc;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
